@@ -18,6 +18,8 @@ find . -type f -exec rename "s/THEMENAME/$machine_name/" *.* {} +
 rename 's/starterkit/info/' *.starterkit.yml
 git clone https://github.com/twbs/bootstrap-sass.git bootstrap
 mkdir css
+wget https://raw.githubusercontent.com/vknyshuk/helpers/master/gulpfile.js
+wget https://raw.githubusercontent.com/vknyshuk/helpers/master/package.json
 
 sudo apt-get update
 sudo apt-get install libnotify-bin
