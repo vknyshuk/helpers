@@ -24,3 +24,4 @@ wget https://raw.githubusercontent.com/vknyshuk/helpers/master/package.json
 sudo apt-get update
 sudo apt-get install libnotify-bin
 npm install -g gulp browser-sync
+npm install
